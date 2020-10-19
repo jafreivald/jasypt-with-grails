@@ -1,5 +1,6 @@
 package jasypt.with.grails
 
+import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
 

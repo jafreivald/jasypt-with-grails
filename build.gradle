@@ -72,6 +72,12 @@ dependencies {
     testCompile "org.seleniumhq.selenium:selenium-support:3.14.0"
     testRuntime "org.seleniumhq.selenium:selenium-chrome-driver:3.14.0"
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.14.0"
+
+    // starter causes NPE with bootRun / run-app
+    // compile "com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.3"
+    
+    // this appears to not decrypt anything
+    compile "com.github.ulisesbocchio:jasypt-spring-boot:3.0.3"
 }
 
 bootRun {
