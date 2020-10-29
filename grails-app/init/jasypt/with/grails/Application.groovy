@@ -1,12 +1,11 @@
 package jasypt.with.grails
 
-import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
+import org.springframework.context.annotation.ComponentScan
 
-import groovy.transform.CompileStatic
-
-@CompileStatic
+//@CompileStatic
+@ComponentScan(basePackages = 'jasypt.with.grails')
 class Application extends GrailsAutoConfiguration {
     static void main(String[] args) {
         GrailsApp.run(Application, args)
