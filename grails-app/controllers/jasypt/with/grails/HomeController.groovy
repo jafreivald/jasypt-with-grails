@@ -4,14 +4,13 @@ import org.springframework.beans.factory.annotation.Value
 
 class HomeController {
    
-    @Value('${enc.test.prop}') 
-    String testProp
+
 
     @Value('${enc.test.plainprop}') 
     String plainProp
 
     def index() {
-        render testProp
+        render "${grailsApplication.config.enc.test.prop}"
     }
 
     def plainProp() {

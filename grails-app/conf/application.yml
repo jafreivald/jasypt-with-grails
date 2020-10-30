@@ -1,7 +1,7 @@
 ---
 enc:
     test:
-        prop: ENC(S5pbjBUCYkBnVpRm9NoTT0lFrTXZYhqfRr9eFid+LeRu7ItrOhHC2cE7xf1bhqes)
+        prop: S5pbjBUCYkBnVpRm9NoTT0lFrTXZYhqfRr9eFid+LeRu7ItrOhHC2cE7xf1bhqes
         plainprop: test
         
 jasypt:
